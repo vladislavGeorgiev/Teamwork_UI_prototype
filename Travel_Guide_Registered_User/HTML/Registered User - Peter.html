@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="not-supported-browser"><![endif]-->
+<!--[if IE 9]><html class="ie9"> <![endif]-->
+<!--[if !IE]><!--><html><!--<![endif]-->
+    <head>
+        <base href='/' />
+        <script type='text/javascript'>
+            var loc = window.location.toString().replace(window.location.hash, '');
+            document.getElementsByTagName('base')[0].href = loc.substring(0, loc.lastIndexOf('/') + 1) + 'player/';
+        </script>
+        <meta http-equiv='x-ua-compatible' content='IE=edge' />
+
+        <meta charset="UTF-8"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, width=device-width, minimal-ui"/>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimal-ui" media="(device-height: 568px)"/>
+        <meta name="google" content="notranslate" />
+        <link rel="apple-touch-icon-precomposed" href="css/images/apple-touch-indigo-icon.jpg"/>
+        <link rel="stylesheet" type="text/css" href="css/player.css" />
+        <script  type="text/javascript" src="lib/require.js"></script>
+    <script data-uri="../project.share" type="application/xml"><?Infragistics.Models format="xaml" version="2"?><SharedProject xmlns="http://prototypes.infragistics.com/shares/" Name="Registered User" StartScreen="/Screen.screen" Version="Dragon.ReleaseV9_20171019.4 - 9.2.1000.51" MajorVersion="9"><SharedProject.Options><ShareOptions ShowAnnotations="True" Comments="Open" /></SharedProject.Options><SharedProject.Toc><Toc><Toc.Root><TocEntry Label="Registered User" Type="project"><TocEntry.Target><TocEntryTarget Project="project.share" /></TocEntry.Target><TocEntry.Items><TocEntry Label="Screen" Type="screen"><TocEntry.Target><TocEntryTarget Screen="/Screen.screen" /></TocEntry.Target><TocEntry.Items><TocEntry Label="Start" Type="state"><TocEntry.Target><TocEntryTarget State="40c100c4-9f21-1854-7177-f6f05cecf60b" /></TocEntry.Target></TocEntry></TocEntry.Items></TocEntry></TocEntry.Items></TocEntry></Toc.Root></Toc></SharedProject.Toc><SharedProject.Resources><SharedResource Reference="/assets/PastedImage(1).png" Type="Image" /><SharedResource Reference="/assets/map.png" Type="Image" /><SharedResource Reference="/Screen.screen" Type="Screen" /></SharedProject.Resources></SharedProject></script>
+<script data-uri="../screen.screen" type="application/xml"><?Infragistics.Models format="xaml" version="29"?><Page xmlns="http://prototypes.infragistics.com/" Id="a0e6992c-1c8f-39f7-0ed3-d6d253e1f332"><Page.Content><Content Width="1280" Height="1024" Id="9162f274-28f9-0f75-bcac-c1031b31b655"><Content.Layers><Layer Id="91a320f5-5a8a-0b2e-dc88-71e96db46f7f" Panel.Layout="Stretch" /><AnnotationsLayer Id="d06c0d18-d44d-cd39-2d26-260518f159ee" Panel.Layout="Stretch" /></Content.Layers><Content.Viewbox><Viewbox Id="dd9e9299-fec0-ca2d-a57b-4b5f0a4f4fca" /></Content.Viewbox><Content.GuidesInfo><GuidesInfo Id="fd1393cd-78f3-9189-1cc2-1765325167f1" /></Content.GuidesInfo></Content></Page.Content><Page.Device><DeviceInfo Id="none" Orientation="None" /></Page.Device><Page.Scenes><Scene Title="Start" Created="11/01/2017 21:38:56" Id="40c100c4-9f21-1854-7177-f6f05cecf60b"><Scene.KeyFrames><KeyFrame Id="061448d0-7538-f58f-bbf4-bda038231a91"><KeyFrame.Operations><Add Property="Panel.Children" Target="91a320f5-5a8a-0b2e-dc88-71e96db46f7f"><Add.Item><ContainerBox Id="517beaab-7663-10e8-6195-0a6879b06714" Panel.Bounds="0,20,1280{5,2147483647},70{5,2147483647}"><ContainerBox.Content><Container ClipToContainer="True" Id="83c097a4-422c-97a7-bbab-c91a12d5c3b3" /></ContainerBox.Content></ContainerBox></Add.Item></Add><Add Property="Panel.Children" Target="91a320f5-5a8a-0b2e-dc88-71e96db46f7f"><Add.Item><Button Text="Log out" Id="6693cb26-b050-f865-78d5-e927e439620f" Panel.Bounds="1156,37,80{5,2147483647},35{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="91a320f5-5a8a-0b2e-dc88-71e96db46f7f"><Add.Item><Button Text="Hello, Peter" Id="9333e838-b689-4427-92e6-334e1f6adfb6" Panel.Bounds="1040,37,80{5,2147483647},35{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="91a320f5-5a8a-0b2e-dc88-71e96db46f7f"><Add.Item><Button Text="Home" Id="0b9cd4b2-735c-0c0f-b0f1-6fb54406b675" Panel.Bounds="924,37,80{5,2147483647},35{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="91a320f5-5a8a-0b2e-dc88-71e96db46f7f"><Add.Item><Icon CatalogId="fa-suitcase" Id="d17c8684-98c0-434e-5ab1-c3bdc05959fe" Panel.Bounds="30,38,32{5,2147483647},32{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="91a320f5-5a8a-0b2e-dc88-71e96db46f7f"><Add.Item><Label Id="4d92f551-ba16-a33a-46f4-956010474ce1" Panel.Bounds="72,46,5*{5,2147483647},5*{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="91a320f5-5a8a-0b2e-dc88-71e96db46f7f"><Add.Item><Image SourcePath="assets/PastedImage(1).png" Id="f055a152-0cb9-296c-85df-4fccbfdf1a07" Panel.Bounds="87,37,936{5,2147483647},51{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="91a320f5-5a8a-0b2e-dc88-71e96db46f7f"><Add.Item><Image SourcePath="assets/map.png" Id="0f755fb2-a679-2ddc-5828-0b4fbf3263f3" Panel.Bounds="454,174,771{5,2147483647},631{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="91a320f5-5a8a-0b2e-dc88-71e96db46f7f"><Add.Item><ContainerBox Id="d58c1843-f370-00bb-36bc-b707c78fb752" Panel.Bounds="101,174,332{5,2147483647},631{5,2147483647}"><ContainerBox.Content><Container ClipToContainer="True" Id="00862ced-19d2-3012-1ccb-4907544ad496"><Container.Children><Title RichText="Rating" FontStyle="Bold" Id="426dd3a3-026e-3f0d-4d0d-4d164603d7e0" Panel.Bounds="27,16,5*{5,2147483647},5*{5,2147483647}" /><Icon CatalogId="fa-star" Id="0266ac0e-a2d9-2be2-5b1b-7887fdb63837" Panel.Bounds="27,103,32{5,2147483647},32{5,2147483647}" /><Icon CatalogId="fa-star" Id="a37574e1-b32b-fc0f-e609-60577ba5c66f" Panel.Bounds="77,103,32{5,2147483647},32{5,2147483647}" /><Icon CatalogId="fa-star" Id="cff0465d-341a-eddf-8877-8bd9e3a955bb" Panel.Bounds="126,103,32{5,2147483647},32{5,2147483647}" /><Icon CatalogId="fa-star-half-o" Id="6065ff68-2654-5aa8-3f30-b5dea3740717" Panel.Bounds="183,103,32{5,2147483647},32{5,2147483647}" /><Icon CatalogId="fa-star-o" Id="74324249-0b88-340b-128c-f5ad104ca264" Panel.Bounds="240,103,32{5,2147483647},32{5,2147483647}" /><Label RichText="3.4 out of 5 stars" FontStyle="Bold" Id="9bd35915-0980-5a97-674b-45a916ec728d" Panel.Bounds="27,72,5*{5,2147483647},5*{5,2147483647}" /><Image Id="52e82c9f-2fa3-2fe8-44b6-d82027630288" Panel.Bounds="27,170,5*{5,2147483647},5*{5,2147483647}" /><ContainerBox Id="c6ad0bff-a027-431a-5844-a11f8a56671e" Panel.Bounds="122,170,186{5,2147483647},82{5,2147483647}"><ContainerBox.Content><Container ClipToContainer="True" Id="43199c13-d2d8-0e01-2179-f91f41795603"><Container.Children><Label RichText="Lorem ipsum dolor sit amet, mel an mazim iuvaret, oportere qualisque mediocritatem ius cu, nibh  " Id="4d05d502-de5c-5afd-bb69-12e12f7c52d5" Panel.Bounds="3,5,176{5,2147483647},72{5,2147483647}" /></Container.Children></Container></ContainerBox.Content></ContainerBox><Image Id="2909f355-a14f-ab94-5a84-289e4f988ad6" Panel.Bounds="27,270,5*{5,2147483647},5*{5,2147483647}" /><ContainerBox Id="2a3742b4-5d03-7e88-9668-a16d9fdd0a49" Panel.Bounds="122,270,186{5,2147483647},82{5,2147483647}"><ContainerBox.Content><Container ClipToContainer="True" Id="21d9f392-6327-2942-fec3-b13abca51402"><Container.Children><Label RichText="Lorem ipsum dolor sit amet, mel an mazim iuvaret, oportere qualisque mediocritatem ius cu, nibh  " Id="35e9d3b0-b38e-1afe-50e9-7e22beff3af7" Panel.Bounds="3,5,176{5,2147483647},72{5,2147483647}" /></Container.Children></Container></ContainerBox.Content></ContainerBox><ContainerBox Id="87ec7a4c-c6a5-9263-8ae1-505f510119b6" Panel.Bounds="27,373,281{5,2147483647},180{5,2147483647}"><ContainerBox.Content><Container ClipToContainer="True" Id="01948954-31ff-ebd4-e335-9dd072319de7"><Container.Children><Label RichText="Leave your comment here" Opacity="0.4" Id="2f8024bf-2e6e-ab95-d6e7-cb55598a3975" Panel.Bounds="4,4,5*{5,2147483647},5*{5,2147483647}" /></Container.Children></Container></ContainerBox.Content></ContainerBox></Container.Children></Container></ContainerBox.Content></ContainerBox></Add.Item></Add><Add Property="Panel.Children" Target="91a320f5-5a8a-0b2e-dc88-71e96db46f7f"><Add.Item><Button Text="Clear" Id="fb01f8fe-a021-5e34-8df7-2454b2a20dfb" Panel.Bounds="155,749,80{5,2147483647},35{5,2147483647}" /></Add.Item></Add><Add Property="Panel.Children" Target="91a320f5-5a8a-0b2e-dc88-71e96db46f7f"><Add.Item><Button Text="Submit" Id="f5dc61b1-5ce0-5365-33cc-e00a166f839c" Panel.Bounds="297,749,80{5,2147483647},35{5,2147483647}" /></Add.Item></Add></KeyFrame.Operations></KeyFrame></Scene.KeyFrames></Scene></Page.Scenes></Page></script>
+
+        <script type='text/javascript'>
+            function load() {
+                require.config({ baseUrl: 'js/', waitSeconds: 60 });
+                require(['require', 'player_lib'], function (require) {
+                    require(['config'], function (config) {
+                        config.EnableInitialScreen = false;
+                        config.EnableAssetsDownload = false;
+                        config.IsExport = true;
+
+                        config.ShowNotes = true;
+                        config.ShowHighlight = false;
+                        config.EnableExportPrototype = false;                                
+                        config.Locale = 'en';
+                            
+                        config.initialize();
+                        require(['shell', 'devices', 'utils', 'css!../css/player_lib'], function (shell, devices, utils) {
+                            config.ProjectPath = '../project.share';
+                            config.BuildScreenUri = function(screen, project) { return '../index.html#f=' + utils.path.stripExtension(screen); };
+                            new shell.PlayerShell().run();                                    
+                         });
+                     });
+                 });
+             }
+        </script>
+</head>
+    <body onload="load()">
+        <div id="toolbar_toggle" style="display:none">
+            <div></div>
+        </div>
+        <div id="toolbar_layer" style="display:none">
+            <div id="toolbar_toggle_mobile">
+                <div></div>
+            </div>
+            <div id="toolbar_content">                
+            </div>
+        </div>
+        <div id="content_layer" class="ui-helper-loading">
+            <div id="prototype"></div>
+            <div class="ruler"></div>
+            <div id="host_popup_layer"></div>
+            <div id="prototype_loading">                
+                <div class="loading_indicator"></div>
+            </div>
+        </div>
+        <div id="shell_layer">            
+        </div>
+
+        <div class="not-supported-browser-message" style="display:none">
+            <p><strong>Oops!</strong><span> Looks like your browser is not supported, please update to IE9+. </span></p>
+            <p>If you are using a IE9+ browser, maybe it's in compatibility mode? See here how to <a href="http://windows.microsoft.com/en-us/internet-explorer/use-compatibility-view" target="_blank">disable compatibility mode</a> and reload.</p>
+        </div>
+    </body>
+</html>
